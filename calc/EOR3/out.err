@@ -1,0 +1,2 @@
+terminate called after throwing an instance of 'Error::Input'
+/var/spool/slurmd/job41444432/slurm_script: line 15: 3673259 Aborted                 (core dumped) mess mess.inp

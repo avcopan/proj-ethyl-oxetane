@@ -1,0 +1,2 @@
+terminate called after throwing an instance of 'Error::Logic'
+/var/spool/slurmd/job41444434/slurm_script: line 15: 1307438 Aborted                 (core dumped) mess mess.inp
