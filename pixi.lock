@@ -1,0 +1,15 @@
+version: 6
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    - url: https://conda.anaconda.org/auto-mech/
+    packages:
+      linux-64:
+      - conda: https://conda.anaconda.org/auto-mech/noarch/mess-static-2025.9.0-h4616a5c_0.conda
+packages:
+- conda: https://conda.anaconda.org/auto-mech/noarch/mess-static-2025.9.0-h4616a5c_0.conda
+  sha256: bf49bc57d60cbcda20f57e6a6e63edbb6204396946703224f9ecd9e49c78e50f
+  md5: d7dee2b3a30813504691abd00da40943
+  size: 42798128
+  timestamp: 1758816360707
