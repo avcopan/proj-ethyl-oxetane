@@ -8,8 +8,6 @@
 #SBATCH --output=out.log
 #SBATCH --error=out.err
 
-eval "$(pixi shell-hook --manifest-path /home/avcopan/proj/proj-ethyl-oxetane)"
-
 export OMP_NUM_THREADS=8
 ulimit -c 0
-mess mess.inp
+../mess mess.inp

@@ -4,6 +4,7 @@ EnergyStepOverTemperature               0.2
 ExcessEnergyOverTemperature             30
 ModelEnergyLimit[kcal/mol]              400
 CalculationMethod                       low-eigenvalue
+WithCRM
 ChemicalEigenvalueMax                   0.2
 Reactant                                w_2
 MicroRateOutput micro.out
