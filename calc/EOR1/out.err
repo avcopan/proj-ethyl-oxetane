@@ -1,3 +1,0 @@
-MasterEquation::low_eigenvalue_method: crm basis is not initialized
-terminate called after throwing an instance of 'Error::Init'
-/var/spool/slurmd/job41444430/slurm_script: line 15: 1479025 Aborted                 (core dumped) mess mess.inp

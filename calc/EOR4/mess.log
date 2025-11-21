@@ -18,8 +18,8 @@ Model::init:  starts
             molecular geometry will be used to estimate rotational constants
             rotational configuration: nonlinear
             rotational constants[1/cm]:       0.31    0.0743    0.0661
-         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.04, elapsed time[sec] = 0
-      Model::new_core:  done, cpu time[sec] = 0.04, elapsed time[sec] = 0
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.09, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.09, elapsed time[sec] = 0
       1-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -92,7 +92,7 @@ Model::init:  starts
            800      28.1      28.1      28.1
            900      30.6      30.6      30.6
           1000        33        33        33
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 1.93, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -149,7 +149,7 @@ Model::init:  starts
            800      5.78      5.76      5.78
            900      6.14      6.13      6.14
           1000      6.48      6.47      6.48
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.43, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 2.53, elapsed time[sec] = 1
       ground state energy = 0 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -160,10 +160,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.04, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.06, elapsed time[sec] = 0
          effective power exponent at 400 kcal/mol = 32.3
-      interpolating states number/density done, cpu time[sec] = 0.09, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.1, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 4.65, elapsed time[sec] = 1
    WELL: w_2
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -243,7 +243,7 @@ Model::init:  starts
            800      5.55      5.55      5.55
            900      5.99      5.99      5.99
           1000       6.4       6.4       6.4
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.61, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -316,7 +316,7 @@ Model::init:  starts
            800        17        17        17
            900      19.3      19.3      19.3
           1000      21.6      21.6      21.6
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -389,7 +389,7 @@ Model::init:  starts
            800      7.66      7.64      7.66
            900      8.99      8.98      8.99
           1000      10.3      10.3      10.3
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.58, elapsed time[sec] = 0
       4-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -446,7 +446,7 @@ Model::init:  starts
            800      4.04      4.02      4.04
            900      4.42       4.4      4.42
           1000      4.78      4.77      4.78
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.45, elapsed time[sec] = 1
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 2.36, elapsed time[sec] = 0
       ground state energy = -1.4 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -461,10 +461,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.11, elapsed time[sec] = 0
          effective power exponent at 401 kcal/mol = 32
-      interpolating states number/density done, cpu time[sec] = 0.13, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.94, elapsed time[sec] = 1
+      interpolating states number/density done, cpu time[sec] = 0.15, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 4.27, elapsed time[sec] = 0
    WELL: w_3
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -556,7 +556,7 @@ Model::init:  starts
            800      18.7      18.7      18.7
            900        21        21        21
           1000      23.3      23.3      23.3
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.54, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -629,7 +629,7 @@ Model::init:  starts
            800        20        20        20
            900      22.3      22.3      22.3
           1000      24.5      24.5      24.5
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.45, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.58, elapsed time[sec] = 1
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -686,10 +686,10 @@ Model::init:  starts
            800      4.09      4.07      4.09
            900      4.47      4.46      4.47
           1000      4.83      4.82      4.83
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.45, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
       ground state energy = -2.6 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
@@ -699,10 +699,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.07, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.1, elapsed time[sec] = 0
          effective power exponent at 403 kcal/mol = 32.3
-      interpolating states number/density done, cpu time[sec] = 0.13, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.51, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.14, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.82, elapsed time[sec] = 1
    WELL: w_4
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -778,7 +778,7 @@ Model::init:  starts
            800      3.43      3.42      3.43
            900      3.79      3.78      3.79
           1000      4.14      4.13      4.14
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.61, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -851,7 +851,7 @@ Model::init:  starts
            800      19.9      19.9      19.9
            900      22.1      22.1      22.1
           1000      24.2      24.2      24.2
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.81, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -924,7 +924,7 @@ Model::init:  starts
            800      11.4      11.4      11.4
            900      13.2      13.2      13.2
           1000      14.9      14.9      14.9
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       ground state energy = -17.5 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
@@ -937,10 +937,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.07, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.1, elapsed time[sec] = 0
          effective power exponent at 418 kcal/mol = 32.5
-      interpolating states number/density done, cpu time[sec] = 0.13, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.49, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.15, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.09, elapsed time[sec] = 0
    WELL: w_5
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -1016,7 +1016,7 @@ Model::init:  starts
            800      3.45      3.44      3.45
            900      3.82       3.8      3.82
           1000      4.17      4.16      4.17
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.55, elapsed time[sec] = 0
       ground state energy = -20.9 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -1025,10 +1025,10 @@ Model::init:  starts
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          effective power exponent at 421 kcal/mol = 32.9
-      interpolating states number/density done, cpu time[sec] = 0.07, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 0.55, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.06, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.61, elapsed time[sec] = 0
    WELL: w_9
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -1108,7 +1108,7 @@ Model::init:  starts
            800      5.34      5.32      5.34
            900      5.79      5.77      5.79
           1000      6.21      6.19      6.21
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.47, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1181,7 +1181,7 @@ Model::init:  starts
            800      18.5      18.5      18.5
            900      20.8      20.8      20.8
           1000      23.1      23.1      23.1
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.43, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1254,7 +1254,7 @@ Model::init:  starts
            800      18.5      18.5      18.5
            900      20.5      20.4      20.5
           1000      22.3      22.3      22.3
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.46, elapsed time[sec] = 1
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       4-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1311,7 +1311,7 @@ Model::init:  starts
            800      3.83      3.81      3.83
            900      4.21       4.2      4.21
           1000      4.58      4.57      4.58
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.53, elapsed time[sec] = 0
       ground state energy = -19 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -1326,10 +1326,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.11, elapsed time[sec] = 1
          effective power exponent at 419 kcal/mol = 32.2
-      interpolating states number/density done, cpu time[sec] = 0.13, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.93, elapsed time[sec] = 1
+      interpolating states number/density done, cpu time[sec] = 0.16, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.29, elapsed time[sec] = 1
    WELL: w_10
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -1405,7 +1405,7 @@ Model::init:  starts
            800      4.57      4.56      4.57
            900      4.97      4.96      4.97
           1000      5.34      5.33      5.34
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.54, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1478,7 +1478,7 @@ Model::init:  starts
            800      12.4      12.4      12.4
            900      14.4      14.4      14.4
           1000      16.3      16.3      16.3
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.53, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1551,7 +1551,7 @@ Model::init:  starts
            800      14.6      14.7      14.6
            900      16.7      16.7      16.7
           1000      18.7      18.7      18.7
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       4-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1608,12 +1608,12 @@ Model::init:  starts
            800      5.33      5.32      5.33
            900      5.72      5.71      5.72
           1000      6.08      6.08      6.08
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       ground state energy = -7.8 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -1623,10 +1623,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.07, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.12, elapsed time[sec] = 0
          effective power exponent at 408 kcal/mol = 32
-      interpolating states number/density done, cpu time[sec] = 0.14, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.95, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.17, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.28, elapsed time[sec] = 0
    WELL: w_12
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -1702,7 +1702,7 @@ Model::init:  starts
            800      3.54      3.53      3.54
            900      3.91       3.9      3.91
           1000      4.26      4.25      4.26
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.55, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1775,7 +1775,7 @@ Model::init:  starts
            800      16.3      16.3      16.3
            900      18.6      18.6      18.6
           1000      20.8      20.8      20.8
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.52, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -1832,7 +1832,7 @@ Model::init:  starts
            800      3.62       3.6      3.62
            900      3.99      3.98      3.99
           1000      4.35      4.34      4.35
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.6, elapsed time[sec] = 0
       ground state energy = -31.5 kcal/mol
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -1845,10 +1845,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.05, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.58, elapsed time[sec] = 0
          effective power exponent at 432 kcal/mol = 32.6
-      interpolating states number/density done, cpu time[sec] = 0.11, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.48, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.63, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.3, elapsed time[sec] = 0
    WELL: w_15
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -1964,7 +1964,7 @@ Model::init:  starts
            800      48.7      48.7      48.7
            900      52.3      52.3      52.3
           1000      55.7      55.7      55.7
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
       3-th ROTOR:
       WARNING: geometry has been changed
 -------------------------------------------
@@ -1993,14 +1993,14 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution done, cpu time[sec] = 0.23, elapsed time[sec] = 0
          effective power exponent at 403 kcal/mol = 32.1
-      interpolating states number/density done, cpu time[sec] = 0.29, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 0.78, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.28, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.85, elapsed time[sec] = 0
    BIMOLECULAR: pr_1
    Model::Bimolecular::Bimolecular:  starts
 -------------------------------------------
@@ -2097,10 +2097,10 @@ Model::init:  starts
               800      4.41       4.4      4.41
               900      4.76      4.75      4.76
              1000      5.09      5.08      5.09
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 1
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.56, elapsed time[sec] = 1
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0.48, elapsed time[sec] = 1
-   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.48, elapsed time[sec] = 1
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.56, elapsed time[sec] = 1
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.56, elapsed time[sec] = 1
    BIMOLECULAR: pr_3
    Model::Bimolecular::Bimolecular:  starts
 -------------------------------------------
@@ -2197,10 +2197,10 @@ Model::init:  starts
               800      4.48      4.47      4.48
               900      4.83      4.82      4.83
              1000      5.17      5.16      5.17
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
-   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
    BIMOLECULAR: pr_6
    Model::Bimolecular::Bimolecular:  starts
 -------------------------------------------
@@ -2337,10 +2337,10 @@ Model::init:  starts
               800       5.5      5.49       5.5
               900      6.38      6.37      6.38
              1000      7.29      7.28      7.29
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
-   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
    BIMOLECULAR: pr_7
    Model::Bimolecular::Bimolecular:  starts
 -------------------------------------------
@@ -2386,7 +2386,7 @@ Model::init:  starts
             effective rotational constant = 15.1 1/cm
          Model::FreeRotor::FreeRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.01, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
 | Available keys:
@@ -2461,10 +2461,10 @@ Model::init:  starts
               800      4.59      4.58      4.59
               900      4.96      4.95      4.96
              1000       5.3      5.29       5.3
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
-   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 0.56, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
    BIMOLECULAR: pr_8
    Model::Bimolecular::Bimolecular:  starts
 -------------------------------------------
@@ -2541,7 +2541,7 @@ Model::init:  starts
               800      3.32       3.3      3.32
               900      3.67      3.65      3.67
              1000      4.01         4      4.01
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.55, elapsed time[sec] = 0
          2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -2614,9 +2614,9 @@ Model::init:  starts
               800      26.2      26.2      26.2
               900      28.8      28.8      28.8
              1000      31.2      31.2      31.2
-         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+         Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.6, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
-      Model::RRHO::RRHO:  done, cpu time[sec] = 0.92, elapsed time[sec] = 0
+      Model::RRHO::RRHO:  done, cpu time[sec] = 1.15, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
 | Available keys:
@@ -2637,7 +2637,7 @@ Model::init:  starts
          Model::new_core:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          ground state energy = 0 kcal/mol
       Model::RRHO::RRHO:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 0.92, elapsed time[sec] = 0
+   Model::Bimolecular::Bimolecular:  done, cpu time[sec] = 1.15, elapsed time[sec] = 0
    BARRIER: rxn_1
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -2713,7 +2713,7 @@ Model::init:  starts
            800      5.38      5.38      5.38
            900      5.77      5.76      5.77
           1000      6.13      6.13      6.13
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.61, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -2738,10 +2738,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.85, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.77, elapsed time[sec] = 0
          effective power exponent at 400 kcal/mol = 34
-      interpolating states number/density done, cpu time[sec] = 0.91, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.4, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.83, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.44, elapsed time[sec] = 0
    BARRIER: rxn_2
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -2817,7 +2817,7 @@ Model::init:  starts
            800      4.83      4.82      4.83
            900      5.22      5.21      5.22
           1000       5.6      5.59       5.6
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.55, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -2842,10 +2842,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.7, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.64, elapsed time[sec] = 0
          effective power exponent at 400 kcal/mol = 33.7
-      interpolating states number/density done, cpu time[sec] = 0.76, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.25, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.69, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.24, elapsed time[sec] = 0
    BARRIER: rxn_3
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -2878,7 +2878,7 @@ Model::init:  starts
       Model::EckartTunnel::EckartTunnel:  starts
          cutoff energy = 17.9 kcal/mol
          tunnel factor = 3.08e-17
-      Model::EckartTunnel::EckartTunnel:  done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+      Model::EckartTunnel::EckartTunnel:  done, cpu time[sec] = 0, elapsed time[sec] = 0
       WARNING: ground state energy with tunneling correction, -1.4 kcal/mol, is lower than the ground state energy minimum,
                -1.4 kcal/mol: adjusting the tunneling cutoff energy
       ground state energy without tunneling correction = 16.5 kcal/mol
@@ -2886,11 +2886,11 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0.02, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 1.2, elapsed time[sec] = 1
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 1.08, elapsed time[sec] = 0
          effective power exponent at 401 kcal/mol = 34.6
-      interpolating states number/density done, cpu time[sec] = 1.27, elapsed time[sec] = 1
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.28, elapsed time[sec] = 1
+      interpolating states number/density done, cpu time[sec] = 1.15, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.15, elapsed time[sec] = 0
    BARRIER: rxn_4
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -2966,7 +2966,7 @@ Model::init:  starts
            800      4.71       4.7      4.71
            900       5.1      5.09       5.1
           1000      5.47      5.47      5.47
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.54, elapsed time[sec] = 1
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -2988,15 +2988,15 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution done, cpu time[sec] = 0, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.78, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.71, elapsed time[sec] = 0
          effective power exponent at 401 kcal/mol = 33.9
-      interpolating states number/density done, cpu time[sec] = 0.83, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.32, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.76, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.3, elapsed time[sec] = 1
    BARRIER: rxn_5
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3088,7 +3088,7 @@ Model::init:  starts
            800      17.1      17.1      17.1
            900      19.6      19.6      19.6
           1000      22.1      22.1      22.1
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -3161,7 +3161,7 @@ Model::init:  starts
            800      14.3      14.3      14.3
            900      16.4      16.4      16.4
           1000      18.5      18.5      18.5
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.61, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -3218,7 +3218,7 @@ Model::init:  starts
            800      4.21       4.2      4.21
            900       4.6      4.59       4.6
           1000      4.97      4.96      4.97
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.46, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 3.6, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3246,11 +3246,11 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.08, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.97, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 2.95, elapsed time[sec] = 1
+         tunneling contribution ... done, cpu time[sec] = 0.87, elapsed time[sec] = 0
          effective power exponent at 401 kcal/mol = 33.9
-      interpolating states number/density done, cpu time[sec] = 1.11, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 2.5, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 3.87, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 8.65, elapsed time[sec] = 1
    BARRIER: rxn_10
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3342,7 +3342,7 @@ Model::init:  starts
            800      19.3      19.3      19.3
            900      21.7      21.7      21.7
           1000      24.1        24      24.1
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.62, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -3399,7 +3399,7 @@ Model::init:  starts
            800      4.32      4.31      4.32
            900      4.71       4.7      4.71
           1000      5.08      5.07      5.08
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 2.25, elapsed time[sec] = 1
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3417,7 +3417,7 @@ Model::init:  starts
       ground state energy without tunneling correction = 5.7 kcal/mol
       ground state energy with tunneling correction    = -2.6 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
@@ -3425,11 +3425,11 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.04, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.51, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 2.41, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.46, elapsed time[sec] = 0
          effective power exponent at 403 kcal/mol = 33.3
-      interpolating states number/density done, cpu time[sec] = 0.61, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.53, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 2.91, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 5.78, elapsed time[sec] = 1
    BARRIER: rxn_13
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3505,7 +3505,7 @@ Model::init:  starts
            800      3.82      3.81      3.82
            900      4.21      4.19      4.21
           1000      4.57      4.56      4.57
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 1
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.54, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3527,15 +3527,15 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 1.31, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 1.18, elapsed time[sec] = 0
          effective power exponent at 408 kcal/mol = 34.6
-      interpolating states number/density done, cpu time[sec] = 1.37, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.85, elapsed time[sec] = 1
+      interpolating states number/density done, cpu time[sec] = 1.23, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.78, elapsed time[sec] = 0
    BARRIER: rxn_14
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3611,7 +3611,7 @@ Model::init:  starts
            800      5.64      5.63      5.64
            900      6.02      6.01      6.02
           1000      6.38      6.37      6.38
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.46, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3631,15 +3631,15 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.71, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.64, elapsed time[sec] = 0
          effective power exponent at 400 kcal/mol = 34
-      interpolating states number/density done, cpu time[sec] = 0.77, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.23, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.69, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 1.26, elapsed time[sec] = 0
    BARRIER: rxn_15
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3715,7 +3715,7 @@ Model::init:  starts
            800      3.92       3.9      3.91
            900       4.3      4.29       4.3
           1000      4.67      4.66      4.67
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.48, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.57, elapsed time[sec] = 1
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3733,17 +3733,17 @@ Model::init:  starts
       ground state energy without tunneling correction = -2.1 kcal/mol
       ground state energy with tunneling correction    = -19 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.01, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 1.2, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 2.95, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 1.1, elapsed time[sec] = 0
          effective power exponent at 419 kcal/mol = 34.4
-      interpolating states number/density done, cpu time[sec] = 1.28, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.76, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 4.1, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 4.67, elapsed time[sec] = 1
    BARRIER: rxn_18
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3835,7 +3835,7 @@ Model::init:  starts
            800      25.7      25.7      25.7
            900      28.5      28.5      28.5
           1000      31.2      31.2      31.2
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.47, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.62, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -3892,7 +3892,7 @@ Model::init:  starts
            800      4.24      4.23      4.24
            900      4.64      4.62      4.64
           1000      5.02      5.01      5.02
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.45, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.58, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -3910,19 +3910,19 @@ Model::init:  starts
       ground state energy without tunneling correction = 1.7 kcal/mol
       ground state energy with tunneling correction    = -7.2 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 1
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.05, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.55, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.28, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.5, elapsed time[sec] = 0
          effective power exponent at 407 kcal/mol = 33.3
-      interpolating states number/density done, cpu time[sec] = 0.65, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.57, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.84, elapsed time[sec] = 1
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.04, elapsed time[sec] = 1
    BARRIER: rxn_20
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -3998,7 +3998,7 @@ Model::init:  starts
            800      3.89      3.88      3.89
            900      4.28      4.27      4.28
           1000      4.65      4.64      4.65
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.62, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -4022,15 +4022,15 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.02, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 1.08, elapsed time[sec] = 1
+         hindered rotors contribution done, cpu time[sec] = 0.88, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.97, elapsed time[sec] = 0
          effective power exponent at 419 kcal/mol = 34.5
-      interpolating states number/density done, cpu time[sec] = 1.15, elapsed time[sec] = 1
-   Model::RRHO::RRHO:  done, cpu time[sec] = 1.64, elapsed time[sec] = 1
+      interpolating states number/density done, cpu time[sec] = 1.92, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 2.54, elapsed time[sec] = 0
    BARRIER: rxn_21
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -4117,15 +4117,15 @@ Model::init:  starts
       ground state energy without tunneling correction = 7.9 kcal/mol
       ground state energy with tunneling correction    = -3.3 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
          hindered rotors contribution done, cpu time[sec] = 0.19, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.65, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.64, elapsed time[sec] = 0
          effective power exponent at 403 kcal/mol = 33.5
-      interpolating states number/density done, cpu time[sec] = 0.91, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 0.91, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.86, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 0.86, elapsed time[sec] = 0
    BARRIER: rxn_27
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -4143,8 +4143,8 @@ Model::init:  starts
             molecular geometry will be used to estimate rotational constants
             rotational configuration: nonlinear
             rotational constants[1/cm]:      0.122    0.0886    0.0555
-         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-      Model::new_core:  done, cpu time[sec] = 0, elapsed time[sec] = 0
+         Model::RigidRotor::RigidRotor:  done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+      Model::new_core:  done, cpu time[sec] = 0.08, elapsed time[sec] = 0
       1-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -4201,7 +4201,7 @@ Model::init:  starts
            800      4.44      4.43      4.44
            900      4.84      4.83      4.84
           1000      5.22      5.21      5.22
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.47, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 2.51, elapsed time[sec] = 1
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -4274,7 +4274,7 @@ Model::init:  starts
            800      31.1      31.1      31.1
            900      34.2      34.2      34.2
           1000      37.1      37.1      37.1
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.77, elapsed time[sec] = 0
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -4331,7 +4331,7 @@ Model::init:  starts
            800      4.51       4.5      4.51
            900      4.91       4.9      4.91
           1000      5.28      5.28      5.28
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 1.37, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -4349,9 +4349,9 @@ Model::init:  starts
       ground state energy without tunneling correction = 10.9 kcal/mol
       ground state energy with tunneling correction    = 0.6 kcal/mol
       interpolating states number/density starts
-         core state contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -4359,11 +4359,11 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.05, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.62, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 19.2, elapsed time[sec] = 3
+         tunneling contribution ... done, cpu time[sec] = 0.57, elapsed time[sec] = 0
          effective power exponent at 399 kcal/mol = 33.2
-      interpolating states number/density done, cpu time[sec] = 0.74, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 2.09, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 19.8, elapsed time[sec] = 3
+   Model::RRHO::RRHO:  done, cpu time[sec] = 24.6, elapsed time[sec] = 4
    BARRIER: rxn_28
 -------------------------------------------
 | Model::Species::Species: WARNING: unknown keyword: Core
@@ -4439,7 +4439,7 @@ Model::init:  starts
            800      3.43      3.42      3.43
            900      3.79      3.78      3.79
           1000      4.14      4.13      4.14
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.49, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.65, elapsed time[sec] = 0
       2-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -4512,7 +4512,7 @@ Model::init:  starts
            800        23        23        23
            900      25.9      25.8      25.9
           1000      28.6      28.6      28.6
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.45, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 1.9, elapsed time[sec] = 1
       3-th ROTOR:
 -------------------------------------------
 | Model::Rotor::Rotor: WARNING: unknown keyword: Group
@@ -4569,7 +4569,7 @@ Model::init:  starts
            800      5.58      5.57      5.58
            900      5.98      5.98      5.98
           1000      6.36      6.36      6.36
-      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 0.44, elapsed time[sec] = 0
+      Model::HinderedRotor::HinderedRotor:  done, cpu time[sec] = 1.15, elapsed time[sec] = 0
 -------------------------------------------
 | Model::Tunnel::Tunnel: WARNING: unknown keyword: WellDepth[kcal/mol]
 | Available keys:
@@ -4589,7 +4589,7 @@ Model::init:  starts
       interpolating states number/density starts
          core state contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          electronic states contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
-         vibrational modes contribution ... done, cpu time[sec] = 0.01, elapsed time[sec] = 0
+         vibrational modes contribution ... done, cpu time[sec] = 0, elapsed time[sec] = 0
          hindered rotors contribution starts
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
@@ -4597,10 +4597,10 @@ Model::init:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
             Model::HinderedRotor::set:  starts
             Model::HinderedRotor::set:  done, cpu time[sec] = 0, elapsed time[sec] = 0
-         hindered rotors contribution done, cpu time[sec] = 0.05, elapsed time[sec] = 0
-         tunneling contribution ... done, cpu time[sec] = 0.61, elapsed time[sec] = 0
+         hindered rotors contribution done, cpu time[sec] = 0.08, elapsed time[sec] = 0
+         tunneling contribution ... done, cpu time[sec] = 0.56, elapsed time[sec] = 0
          effective power exponent at 399 kcal/mol = 33.2
-      interpolating states number/density done, cpu time[sec] = 0.73, elapsed time[sec] = 0
-   Model::RRHO::RRHO:  done, cpu time[sec] = 2.11, elapsed time[sec] = 0
+      interpolating states number/density done, cpu time[sec] = 0.68, elapsed time[sec] = 0
+   Model::RRHO::RRHO:  done, cpu time[sec] = 4.38, elapsed time[sec] = 1
 
    Model::init: Well: name w_15 already in use
